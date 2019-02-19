@@ -538,6 +538,7 @@
 
     <!-- Regex of wired ethernet ifaces -->
     <string name="config_ethernet_iface_regex">eth0</string>
+
     <!-- Default value for proximity check on screen wake
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
     <bool name="config_proximityCheckOnWake">true</bool>
@@ -606,4 +607,7 @@
 
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
+    
+    <!-- Whether to allow sending active app broadcast -->
+    <bool name="config_allowActivePackageBroadcast">true</bool>
 </resources>
