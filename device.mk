@@ -246,7 +246,7 @@ PRODUCT_BOOT_JARS += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common
+    qti-telephony-common
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -374,9 +374,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service
 
 # Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
-
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
