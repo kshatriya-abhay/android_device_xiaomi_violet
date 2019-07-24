@@ -628,9 +628,6 @@
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
-    <!-- Should we filter any display modes which are unampped? -->
-    <bool name="config_filterDisplayModes">true</bool>
-	
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
 
