@@ -24,3 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# for Launcher3
+TARGET_EXCLUDE_LAWNCHAIR := true
